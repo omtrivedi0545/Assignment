@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin-left: 10px;
+        }
+
+        ul li {
+            margin-left: 20px;
+            list-style: disc;
+        }
+        div [class*="box"]{
+            height: 130px;
+            width: 190px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0.2px 0.2px 1px black;
+        }
+        .container{
+            height: 400px;
+            width: 650px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
+        .qsd{
+            background-color: rgb(74, 74, 74);
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+        }
+        .qse{
+            padding-top: 5px;
+            font-size: xx-small;
+            padding-bottom: 5px;
+        }
+        .klo{
+            display: flex;
+            padding-bottom: 5px;
+        }
+        .lop{
+            padding: 1px 5px;
+            border: 1px solid black;
+            font-size: x-small; 
+        }
+    </style>
+</head>
+
+<body>
+    <h2>1. What are the benefits of using CSS?</h2>
+    <p>Ans:- The benefits of using css is we can change font colore, Background-colore, Background images, we adjust
+        image according to us.</p>
+    <hr>
+    <h2>2. What are the disadvantages of CSS?</h2>
+    <P>Ans:-CSS has some disadvantage are following:-</P>
+    <ol>
+        <li>Lack of Security.</li>
+        <li>Limited Layout Control.</li>
+        <li>Performance Impact.</li>
+        <li>Overriding Styles.</li>
+    </ol>
+    <hr>
+    <h2>3. What is the difference between CSS2 and CSS3?</h2>
+    <h4>Ans:-</h4>
+    <h5>CSS2</h5>
+    <ol>
+        <li>CSS2 does not support responsive design
+            and cannot handle media queries.</li>
+
+        <li>CSS2 is slower than css3. </li>
+        <li>It does not support 3D transformation
+            and animation. </li>
+        <h5>CSS3</h5>
+        <ol>
+            <li>CSS3 support responsive design and handle media queries. </li>
+            <li>CSS3 is the latest version that makes it faster.</li>
+            <li> you can create transformation and animation using CSS3. </li>
+        </ol>
+    </ol>
+    <hr>
+    <h2>Q4.Name a few CSS style components</h2>
+    <h5>Ans:-</h5>
+    <p>
+    <ol>
+        <li>Selector</li>
+        <li>Property</li>
+        <li>Value</li>
+    </ol>
+    </p>
+    <hr>
+    <h2>Q5. What do you understand by CSS opacity?</h2>
+    <p>
+        Ans:- The CSS opacity property is used to transparency of element. if we can parform any function on that
+        element that not change a efacte.
+    </p>
+    <hr>
+    <h2>Q6. How can the background color of an element be changed?</h2>
+    <p>Ans:- Using background color property we can change the background color of an element.</p>
+    <hr>
+    <h2>Q7. How can image repetition of the backup be controlled?</h2>
+    <p>Ans:-Using background repeat property we can control image repetation property.</p>
+    <hr>
+    <h2>Q8. What is the use of the background-position property?</h2>
+    <p>Ans:- The background-position property is used for set the position of Background image.</p>
+    <hr>
+    <h2>Q9. Which property controls the image scroll in the background?</h2>
+    <p>Ans:- background-attachment property.</p>
+    <h2>Q10. Why should background and color be used as separate properties?</h2>
+    <p>Ans:- The background property is a complex property in CSS if it is combined with color, the complexity will
+        further increase.</p>
+    <hr>
+    <h2>Q11. How to center block elements using CSS1?</h2>
+    <p>Ans:- using a margin auto to set block element in center. </p>
+    <hr>
+    <h2>Q12. How to maintain the CSS specifications?</h2>
+    <p>Ans:- The CSS specifications are maintained by W3C (world wide web)</p>
+    <hr>
+    <h2>Q13. What are the ways to integrate CSS as a web page?</h2>
+    <P>Ans:- There are 3 ways to integrate css in web page:-
+    <ol>
+        <li>Inline CSS(use css in tags)</li>
+        <li>internal CSS(use css in head section by style tage)</li>
+        <li>External CSS(use this css by createing css file and link that file in html file)</li>
+    </ol>
+    </P>
+    <hr>
+    <h2>Q14.What is embedded style sheets?</h2>
+    <p>Ans:- Embedded style sheets are located in the header of a page, and apply to that entire page.</p>
+    <hr>
+    <h2>Q15. What are the external style sheets?</h2>
+    <P>Ans:- External style sheet is another file of css that use in web page by link the file and recive its propertys
+    </P>
+    <hr>
+    <h2>Q16. What are the advantages and disadvantages of using external style sheets?</h2>
+    <P>Ans:-
+    <h5>advantages</h5>
+    <ol>
+        <li>It should be created onece and used in multipal web pages</li>
+        <li>It is easy to maintain and we can find our any mistake if we do.</li>
+    </ol>
+    <h5>disadvantage</h5>
+    <ol>
+        <li>Requrie a extra dwonlode for style sheet that delay page.</li>
+    </ol>
+    </P>
+    <hr>
+    <h2>Q17. What is the meaning of the CSS selector?</h2>
+    <p>Ans:-
+        CSS selector are used to select the content we want to style. Selector are part of css. we use selector like
+        id,class,attribute.
+    <ol>
+        <li>Basic selector</li>
+        <li>Combinator Selector</li>
+        <li>Group selector</li>
+        <li>Psuedo selector</li>
+    </ol>
+    </p>
+    <hr>
+    <h2>Q18. What are the media types allowed by CSS?</h2>
+    <p>Ans:-
+    <ol>
+        <li> All</li>
+        <li> Print</li>
+        <li> Screen</li>
+        <li>Braille</li>
+        <li> Paper embossing</li>
+        <li>Handheld</li>
+        <li> Projection</li>
+        <li> TV</li>
+        <li> Speech</li>
+
+    </ol>
+    </p>
+    <hr>
+    <h2>Q19. What is the rule set?</h2>
+    <p>Ans:- 
+        <ul>
+            <li>A selector selects HTML elements. In other words, developers use CSS selectors in a stylesheet to select the HTML elements they which to style.</li>
+            <li>A CSS declaration consists of a CSS property name and value separated by a colon (:).</li>
+        </ul>
+    </p>
+    <hr>
+    <h2>Q20. Create Layouts</h2>
+    <p>Ans:-</p>
+    <div class="container">
+        <div class="box">
+            <div class="qsd">Thumbnil</div>
+            <div class="qse"><p>This is a wider card with supporting text below as a natural lead into additional contaent this content is little-bit longer</p>
+            </div>
+                <div class="klo">
+                   <div class="lop">View</div>
+                   <div class="lop">Edit</div>
+                </div>
+        </div>
+        <div class="box">
+            <div class="qsd">Thumbnil</div>
+            <div class="qse"><p>This is a wider card with supporting text below as a natural lead into additional contaent this content is little-bit longer</p>
+            </div>
+                <div class="klo">
+                   <div class="lop">View</div>
+                   <div class="lop">Edit</div>
+                </div>
+        </div>
+        <div class="box">
+            <div class="qsd">Thumbnil</div>
+            <div class="qse"><p>This is a wider card with supporting text below as a natural lead into additional contaent this content is little-bit longer</p>
+            </div>
+                <div class="klo">
+                   <div class="lop">View</div>
+                   <div class="lop">Edit</div>
+                </div>
+        </div>
+        <div class="box">
+            <div class="qsd">Thumbnil</div>
+            <div class="qse"><p>This is a wider card with supporting text below as a natural lead into additional contaent this content is little-bit longer</p>
+            </div>
+                <div class="klo">
+                   <div class="lop">View</div>
+                   <div class="lop">Edit</div>
+                </div>
+        </div>
+        <div class="box">
+            <div class="qsd">Thumbnil</div>
+            <div class="qse"><p>This is a wider card with supporting text below as a natural lead into additional contaent this content is little-bit longer</p>
+            </div>
+                <div class="klo">
+                   <div class="lop">View</div>
+                   <div class="lop">Edit</div>
+                </div>
+        </div>
+        <div class="box">
+            <div class="qsd">Thumbnil</div>
+            <div class="qse"><p>This is a wider card with supporting text below as a natural lead into additional contaent this content is little-bit longer</p>
+            </div>
+                <div class="klo">
+                   <div class="lop">View</div>
+                   <div class="lop">Edit</div>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
